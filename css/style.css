@@ -1,0 +1,163 @@
+body {
+  width: 100%;
+  height: 1022px;
+  background-image: url("../img/fon.png");
+  background-repeat: repeat-x;
+  background-color: #0c739f;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+/* обёртка */
+.wrapper {
+  margin: 0px auto;
+  padding-top:;
+  padding-bottom: ;
+  width: 1000px;
+  background: #ffffff;
+  box-shadow: 0 5px 10px 5px #084c69;
+}
+/* зачистка границ float */
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+/* шапка */
+.header {
+  margin-bottom: 4px;
+  width: auto;
+  height: auto;
+}
+.header-top {
+  position: relative;
+  margin: auto;
+  padding: inherit;
+  width: 1000px;
+  height: 175px;
+}
+.logo {
+  position: absolute;
+  bottom: 0px;
+  left: 28px;
+}
+.contact {
+  position: absolute;
+  top: 0px;
+  right: 33px;
+  margin: 0px;
+  padding: 11px 0px;
+  color: #5fa5bb;
+}
+.country {
+  position: absolute;
+  bottom: 9px;
+  right: 33px;
+}
+.country li {
+  float: left;
+  width: 60px;
+}
+.country img {
+  display: block;
+  margin: auto;
+}
+.country a {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 10px;
+  color: #128aa7;
+}
+.header-photo {
+  display: block;
+  border-top: 1px solid #138aa7;
+  border-bottom: 1px solid #138aa7;
+}
+.menu {
+  height: 28px;
+  padding-left: 50px;
+  background-color: #333333;
+  border-top: 1px solid #cacbcb;
+  border-bottom: 1px solid #000000;
+  box-shadow: 0px 3px 4px 1px #4f4f50;
+}
+.menu li {
+  float: left;
+  position: relative;
+  z-index: 1;
+  padding: 4px 40px 0px 10px;
+  height: 28px;
+}
+.menu a {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menu li ul {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 28px;
+  margin: 0;
+  padding-right: 0px;
+  width: inherit;
+  background-color: #333333;
+  box-shadow: 0px 5px 4px 1px #4f4f50;
+}
+.menu li ul li {
+  float: none;
+  display: block;
+}
+.menu li:hover ul {
+  display: block;
+}
+
+/* контент страницы сайта */
+.container {
+  width: 100%;
+  background-image: url("../img/fon-container.jpg");
+  background-repeat: repeat-y;
+}
+.sidebar {
+  width: 208px;
+  height: 100%;
+  background-color: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+}
+.sidebar a {
+  padding: 0px 16px;
+  color: #424c43;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.75;
+}
+.sidebar ul:last-child {
+  padding-bottom: 14px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.rubric {
+  padding: 8px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.content {
+  padding: 50px 230px;
+}
+/* подвал сайтта */
+.footer {
+  margin: 0px auto;
+  padding: 11px 0px;
+  width: 1000px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
