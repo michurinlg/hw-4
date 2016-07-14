@@ -126,6 +126,12 @@ body {
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
 }
+.sidebar h2 {
+  padding: 8px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
 .sidebar a {
   padding: 0px 16px;
   color: #424c43;
@@ -141,12 +147,6 @@ body {
 }
 .right {
   float: right;
-}
-.rubric {
-  padding: 8px 0px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
 }
 .content {
   padding: 50px 230px;
